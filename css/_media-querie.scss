@@ -1,0 +1,150 @@
+/*
+RESPONSIVE
+*/
+
+@media (max-width:1000px) {
+    .content {
+        padding: 0 20px;
+    }
+    .slicknav_nav .pratite-nas {
+        display: block;
+        padding-top: 50px;
+        .mobil-pratite {
+            text-align: left;
+            padding-left: 20px;
+            float: left;
+            padding-top: 5px;
+        }
+        .mobil-social {
+            text-align: right;
+            padding-right: 20px;
+            float: right;
+            padding-bottom: 10px;
+            span {
+                position: relative;
+                display: inline-block;
+            }
+            a {
+                padding: 0;
+            }
+            .facebook-2 {
+                width: 14px;
+                height: 26px;
+                background-image: url(../images/diwanee-facebook-2.png);
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+@media (min-width:1000px) and (max-width:1000px) {}
+
+@media (max-width:768px) {
+    #menu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+    .cover {
+        height: 580px;
+        .caption-text h1 {
+            font-size: 70px;
+        }
+    }
+    header .wrapper .nav .navbar-brand {
+        left: 0;
+        img {
+            margin-left: 20px;
+        }
+    }
+    #poslovi .posao-box {
+        .info,
+        .prijava {
+            width: 100%!important;
+            float: none;
+            button {
+                float: none!important;
+            }
+        }
+    }
+    #o-nama {
+        h2 {
+            font-size: 40px!important;
+        }
+    }
+    .usluge {
+        .box {
+            width: 100%!important;
+        }
+    }
+    #kontakt {
+        padding: 80px 30px;
+        .kontakt-sadrzaj {
+            margin: 0!important;
+            .footer-box {
+                width: 100%;
+                float: none!important;
+            }
+        }
+    }
+    .content .usluge .box .box-sadrzaj {
+        padding: 80px 10px;
+    }
+    footer {
+        height: auto;
+        .copyright {
+            width: 100%;
+            float: none!important;
+        }
+        .rights {
+            float: none!important;
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width:450px) {
+    .cover {
+        height: 550px;
+        .caption-text {
+            top: 25%;
+            width: 100%;
+            left: inherit;
+            transform: none;
+            h1 {
+                font-size: 60px;
+            }
+            p {
+                display: none;
+            }
+            .mobile-cover-text {
+                display: block;
+                font-size: 20px;
+                text-transform: uppercase;
+                font-weight: 400;
+                color: $tamna;
+            }
+        }
+    }
+    #kontakt {
+        padding-bottom: 10px;
+        .rights {
+            display: block;
+            padding-top: 20px;
+            
+            a {
+                text-decoration: none;
+                color: #666666;
+            }
+        }
+    }
+    footer {
+        .rights {
+            display: none;
+        }
+        .copyright {
+            padding: 10px 0!important;
+        }
+    }
+}

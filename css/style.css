@@ -1,0 +1,503 @@
+@import url("../font/helvetica-normal-58ee0594860f6.ttf");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500&subset=latin-ext");
+body {
+  font-family: "Roboto", sans-serif;
+  color: #666666;
+  background: #fbfbfb;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  line-height: 24px;
+  overflow-x: hidden; }
+
+* {
+  box-sizing: border-box; }
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 5; }
+  header .wrapper {
+    width: 100%;
+    display: inline-block;
+    padding: 0 18%;
+    margin: 0 auto;
+    position: relative; }
+    header .wrapper .nav {
+      border: none;
+      margin: 0;
+      width: 100%;
+      display: inline-block;
+      z-index: 5;
+      -webkit-transition: 0.45s ease-in-out;
+              transition: 0.45s ease-in-out; }
+      header .wrapper .nav .navbar-brand {
+        padding: 0;
+        position: absolute;
+        top: 15px;
+        text-align: center; }
+        header .wrapper .nav .navbar-brand img {
+          margin-left: 40px;
+          -webkit-transition: 0.4s ease-in-out;
+                  transition: 0.4s ease-in-out; }
+      header .wrapper .nav .nav-menu {
+        float: right; }
+        header .wrapper .nav .nav-menu li {
+          position: inherit;
+          list-style-type: none;
+          display: inline-block; }
+          header .wrapper .nav .nav-menu li a {
+            color: #222222;
+            font-size: 14px;
+            text-decoration: none;
+            padding: 5px 15px;
+            position: relative;
+            text-transform: uppercase;
+            font-weight: 400;
+            line-height: 36px;
+            -webkit-transition: 0.5s ease-in-out;
+                    transition: 0.5s ease-in-out; }
+        header .wrapper .nav .nav-menu .pratite-nas {
+          display: none; }
+
+.linija {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 50px;
+  margin: 40px 0;
+  height: 1px;
+  background: #C4C4C4; }
+
+.red {
+  background: #CE4C5E; }
+
+.cover {
+  width: 100%;
+  background-image: url(../images/diwanee-serbia-cover.jpg);
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  height: 695px; }
+  .cover img {
+    width: 100%;
+    display: block;
+    position: relative; }
+  .cover .caption-text {
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    max-width: 675px;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate(50%, -50%);
+        -ms-transform: translate(50%, -50%);
+            transform: translate(50%, -50%); }
+    .cover .caption-text h1 {
+      font-size: 80px;
+      color: #222222;
+      text-transform: uppercase;
+      line-height: normal;
+      margin: 0;
+      font-weight: 500; }
+    .cover .caption-text p {
+      font-family: "Helvetica", sans-serif;
+      font-size: 24px;
+      color: #222222;
+      margin: 0; }
+
+.content {
+  position: relative;
+  width: 100%; }
+  .content .usluge {
+    width: 100%;
+    position: relative;
+    display: inline-block; }
+    .content .usluge .box {
+      position: relative;
+      width: 33.33%;
+      background: #fbfbfb;
+      float: left;
+      text-align: center; }
+      .content .usluge .box .box-sadrzaj {
+        padding: 80px 40px; }
+      .content .usluge .box h2 {
+        font-size: 18px;
+        text-transform: uppercase;
+        margin: 0;
+        padding-top: 30px; }
+      .content .usluge .box p {
+        text-align: justify;
+        margin: 0; }
+    .content .usluge .box:hover .box-sadrzaj {
+      background: #ededed;
+      -webkit-transition: 0.7s ease-in-out;
+              transition: 0.7s ease-in-out; }
+
+#poslovi {
+  text-align: center;
+  background: #fbfbfb; }
+  #poslovi h4 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+    text-transform: uppercase; }
+  #poslovi h2 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-transform: uppercase; }
+  #poslovi h6 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 80px; }
+  #poslovi .posao-box {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 30px 0; }
+    #poslovi .posao-box .posao-sadrzaj {
+      width: 100%;
+      display: inline-block;
+      max-width: 800px;
+      background: #fbfbfb;
+      text-align: left; }
+      #poslovi .posao-box .posao-sadrzaj .info {
+        width: 70%;
+        float: left; }
+        #poslovi .posao-box .posao-sadrzaj .info span {
+          padding: 5px;
+          background: transparent;
+          border: 1px solid #222222;
+          font-size: 13px;
+          text-transform: uppercase; }
+      #poslovi .posao-box .posao-sadrzaj .prijava {
+        width: 30%;
+        float: right;
+        margin-top: 60px;
+        text-align: center; }
+        #poslovi .posao-box .posao-sadrzaj .prijava button {
+          float: right;
+          background: transparent;
+          padding: 10px 38px;
+          border: 1px solid #222222;
+          cursor: pointer; }
+  #poslovi .posao-box:hover {
+    background: #222222;
+    -webkit-transition: 1s ease-in-out;
+            transition: 1s ease-in-out; }
+    #poslovi .posao-box:hover .posao-sadrzaj {
+      background: #222222;
+      -webkit-transition: 1s ease-in-out;
+              transition: 1s ease-in-out; }
+      #poslovi .posao-box:hover .posao-sadrzaj h3,
+      #poslovi .posao-box:hover .posao-sadrzaj p,
+      #poslovi .posao-box:hover .posao-sadrzaj span,
+      #poslovi .posao-box:hover .posao-sadrzaj button {
+        color: #fbfbfb;
+        border-color: #fbfbfb; }
+  #poslovi .jos-pozicija {
+    text-align: center; }
+    #poslovi .jos-pozicija button {
+      background: transparent;
+      border: 1px solid #000;
+      cursor: pointer;
+      padding: 16px 50px;
+      font-size: 14px;
+      text-transform: uppercase;
+      margin-top: 80px; }
+      #poslovi .jos-pozicija button:hover {
+        background: #222222;
+        color: #fbfbfb;
+        border: 1px solid #fbfbfb;
+        -webkit-transition: 0.7s ease-in-out;
+                transition: 0.7s ease-in-out; }
+
+#o-nama {
+  text-align: center;
+  padding: 80px 0; }
+  #o-nama .o-nama-sadrzaj {
+    width: 100%;
+    max-width: 800px;
+    display: inline-block; }
+    #o-nama .o-nama-sadrzaj h4 {
+      font-size: 14px;
+      font-weight: 400;
+      color: #999999;
+      margin-bottom: 30px; }
+    #o-nama .o-nama-sadrzaj h2 {
+      font-size: 50px;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase;
+      margin: 0; }
+    #o-nama .o-nama-sadrzaj p {
+      text-align: justify;
+      margin: 0; }
+
+.social {
+  text-align: center;
+  padding-bottom: 80px; }
+  .social h4 {
+    color: #999999;
+    text-transform: uppercase;
+    font-weight: 400; }
+  .social a:hover {
+    opacity: 0.7;
+    -webkit-transition: 0.7s ease-in-out;
+            transition: 0.7s ease-in-out; }
+  .social .facebook,
+  .social .twitter {
+    position: relative;
+    display: inline-block;
+    background-image: url(../images/diwanee-facebook.png);
+    width: 64px;
+    height: 64px; }
+  .social .twitter {
+    background-image: url(../images/diwanee-twitter.png);
+    margin-right: 5px; }
+
+#kontakt {
+  background: #222222;
+  padding: 80px 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center; }
+  #kontakt .rights {
+    display: none; }
+  #kontakt .kontakt-sadrzaj {
+    width: 100%;
+    max-width: 900px;
+    display: inline-block;
+    margin-left: 10%; }
+    #kontakt .kontakt-sadrzaj .footer-box {
+      float: left;
+      display: inline-block;
+      width: 33.33%; }
+      #kontakt .kontakt-sadrzaj .footer-box .footer-box-sadrzaj {
+        text-align: left; }
+        #kontakt .kontakt-sadrzaj .footer-box .footer-box-sadrzaj ul {
+          padding: 0; }
+          #kontakt .kontakt-sadrzaj .footer-box .footer-box-sadrzaj ul li {
+            list-style-type: none;
+            font-size: 15px; }
+        #kontakt .kontakt-sadrzaj .footer-box .footer-box-sadrzaj h2 {
+          font-size: 16px;
+          color: #fbfbfb; }
+          #kontakt .kontakt-sadrzaj .footer-box .footer-box-sadrzaj h2:before {
+            content: "";
+            position: relative;
+            display: inline-block;
+            background-image: url(../images/diwanee-pin.png);
+            width: 18px;
+            height: 27px;
+            margin-right: 5px; }
+
+.sticky {
+  background: white;
+  height: 65px; }
+
+footer {
+  background: #1E1E1E;
+  width: 100%;
+  text-align: center;
+  height: 75px; }
+  footer .footer-sadrzaj {
+    width: 100%;
+    max-width: 800px;
+    display: inline-block; }
+    footer .footer-sadrzaj .copyright {
+      float: left;
+      padding-top: 30px; }
+      footer .footer-sadrzaj .copyright p {
+        font-size: 12px;
+        font-weight: 300;
+        margin: 0; }
+    footer .footer-sadrzaj .rights {
+      float: right;
+      padding-top: 25px; }
+      footer .footer-sadrzaj .rights a {
+        color: #666666;
+        text-decoration: none; }
+
+.linkedin {
+  background-image: url(../images/diwanee-linkedin.png);
+  width: 21px;
+  height: 21px;
+  display: inline-block;
+  margin-right: 15px; }
+
+.twitter-2 {
+  background-image: url(../images/diwanee-twitter-2.png);
+  width: 21px;
+  height: 18px;
+  display: inline-block;
+  margin-right: 10px; }
+
+.twitter-3 {
+  background-image: url(../images/diwanee-twitter-3.png);
+  width: 25px;
+  height: 21px; }
+
+.slicknav_menu {
+  display: none; }
+
+.slicknav_nav {
+  background: rgba(38, 38, 38, 0.98);
+  z-index: 999;
+  width: 100%;
+  margin-top: 66px !important;
+  padding: 20px 0;
+  text-align: center;
+  padding-top: 50px !important; }
+  .slicknav_nav li {
+    padding: 10px 0; }
+  .slicknav_nav a {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 300; }
+
+.slicknav_menu {
+  background: transparent !important;
+  position: fixed;
+  width: 100%;
+  padding: 0 !important;
+  z-index: 999; }
+
+.slicknav_menu .slicknav_menutxt {
+  display: none !important; }
+
+.slicknav_btn {
+  background-color: transparent !important;
+  margin: 10px 15px 6px !important; }
+
+.slicknav_menu .slicknav_icon-bar {
+  background-color: #222222 !important;
+  width: 2em !important;
+  height: 0.225em !important; }
+
+.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
+  margin-top: 0.29em !important; }
+
+.mobile-cover-text {
+  display: none; }
+
+/*
+RESPONSIVE
+*/
+@media (max-width: 1000px) {
+  .content {
+    padding: 0 20px; }
+
+  .slicknav_nav .pratite-nas {
+    display: block;
+    padding-top: 50px; }
+    .slicknav_nav .pratite-nas .mobil-pratite {
+      text-align: left;
+      padding-left: 20px;
+      float: left;
+      padding-top: 5px; }
+    .slicknav_nav .pratite-nas .mobil-social {
+      text-align: right;
+      padding-right: 20px;
+      float: right;
+      padding-bottom: 10px; }
+      .slicknav_nav .pratite-nas .mobil-social span {
+        position: relative;
+        display: inline-block; }
+      .slicknav_nav .pratite-nas .mobil-social a {
+        padding: 0; }
+      .slicknav_nav .pratite-nas .mobil-social .facebook-2 {
+        width: 14px;
+        height: 26px;
+        background-image: url(../images/diwanee-facebook-2.png);
+        margin-left: 20px; } }
+@media (max-width: 768px) {
+  #menu {
+    display: none; }
+
+  .slicknav_menu {
+    display: block; }
+
+  .cover {
+    height: 580px; }
+    .cover .caption-text h1 {
+      font-size: 70px; }
+
+  header .wrapper .nav .navbar-brand {
+    left: 0; }
+    header .wrapper .nav .navbar-brand img {
+      margin-left: 20px; }
+
+  #poslovi .posao-box .info,
+  #poslovi .posao-box .prijava {
+    width: 100% !important;
+    float: none; }
+    #poslovi .posao-box .info button,
+    #poslovi .posao-box .prijava button {
+      float: none !important; }
+
+  #o-nama h2 {
+    font-size: 40px !important; }
+
+  .usluge .box {
+    width: 100% !important; }
+
+  #kontakt {
+    padding: 80px 30px; }
+    #kontakt .kontakt-sadrzaj {
+      margin: 0 !important; }
+      #kontakt .kontakt-sadrzaj .footer-box {
+        width: 100%;
+        float: none !important; }
+
+  .content .usluge .box .box-sadrzaj {
+    padding: 80px 10px; }
+
+  footer {
+    height: auto; }
+    footer .copyright {
+      width: 100%;
+      float: none !important; }
+    footer .rights {
+      float: none !important;
+      width: 100%; } }
+@media (max-width: 450px) {
+  .cover {
+    height: 550px; }
+    .cover .caption-text {
+      top: 25%;
+      width: 100%;
+      left: inherit;
+      -webkit-transform: none;
+          -ms-transform: none;
+              transform: none; }
+      .cover .caption-text h1 {
+        font-size: 60px; }
+      .cover .caption-text p {
+        display: none; }
+      .cover .caption-text .mobile-cover-text {
+        display: block;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: #222222; }
+
+  #kontakt {
+    padding-bottom: 10px; }
+    #kontakt .rights {
+      display: block;
+      padding-top: 20px; }
+      #kontakt .rights a {
+        text-decoration: none;
+        color: #666666; }
+
+  footer .rights {
+    display: none; }
+  footer .copyright {
+    padding: 10px 0 !important; } }
+
+/*# sourceMappingURL=style.css.map */
